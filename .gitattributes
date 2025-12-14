@@ -1,24 +1,8 @@
-
-# Normalize line endings for ALL text files, without overriding languages
-* text=auto eol=lf
-
-# Binary files (GitHub Linguist mantém linguagem original)
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.ico binary
-*.ttf binary
-*.otf binary
-*.mp3 binary
-*.mp4 binary
-*.wav binary
-*.webp binary
-*.zip binary
-
-# Prevent merge conflicts in iOS project files
-*.pbxproj merge=union
-
-# Prevent annoying merge conflicts in lock file
-pubspec.lock merge=ours
-
+* linguist-language=Dart
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+web/** linguist-vendored
+build/** linguist-vendored
